@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".fullpage").slick({arrows:!0,dots:!0,slidesToShow:1,slidesToScroll:1,speed:1e3,easing:"ease",infinite:!1,draggable:!1,swipe:!0,vertical:!0,verticalSwiping:!0}),$(window).bind("mousewheel",function(e){0<=e.originalEvent.wheelDelta?(console.log("Scroll up"),$(".slick-prev").click()):(console.log("Scroll down"),$(".slick-next").click())})});
